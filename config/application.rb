@@ -16,11 +16,11 @@ module ChatApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
-    cofig.generators do |g|
-      g.styledheets false
+    config.generators do |g|
+      g.stylesheets false
       g.javascripts false
       g.helper false
-      g.test.framework false
+      g.test_framework false
     end
   end
 end
